@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PortalForm</class>
+ <widget class="QDialog" name="PortalForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Beam Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QGroupBox" name="groupBoxProfiles">
+        <property name="title">
+         <string>Perfis</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="4" column="0">
+          <widget class="QLabel" name="labelBottomRightChord">
+           <property name="text">
+            <string>Perfil 4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="9">
+          <widget class="QCheckBox" name="checkBoxToggleTopLeftChordAttribute">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopLeftChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6">
+          <widget class="QCheckBox" name="checkBoxToggleBottomRightChordModelObjectType">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomRightChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QCheckBox" name="checkBoxToggleCreateBottomLeftChord">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateBottomLeftChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="7">
+          <widget class="QComboBox" name="comboBoxTopRightChordModelObjectType">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopRightChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Beam</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MultiBeam</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="7">
+          <widget class="QComboBox" name="comboBoxBottomLeftChordModelObjectType">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomLeftChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Beam</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MultiBeam</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="10">
+          <widget class="QComboBox" name="comboBoxBottomRightChordAttribute">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>-1</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomRightChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="labelCreate">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Criar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="10">
+          <widget class="QComboBox" name="comboBoxTopLeftChordAttribute">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>-1</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopLeftChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QComboBox" name="comboBoxCreateBottomLeftChord">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateBottomLeftChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QComboBox" name="comboBoxCreateTopRightChord">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateTopRightChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="labelTopLeftChord">
+           <property name="text">
+            <string>Perfil 1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="10">
+          <widget class="QComboBox" name="comboBoxBottomLeftChordAttribute">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>-1</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomLeftChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="labelObject">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Objeto</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="11">
+          <widget class="QToolButton" name="toolButtonTopLeftChordAttributeSetup">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6">
+          <widget class="QCheckBox" name="checkBoxToggleBottomLeftChordModelObjectType">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomLeftChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QCheckBox" name="checkBoxToggleCreateTopLeftChord">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateTopLeftChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="10">
+          <widget class="QLabel" name="labelAttribute">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Atributo</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="11">
+          <widget class="QToolButton" name="toolButtonBottomLeftChordAttributeSetup">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="6">
+          <widget class="QCheckBox" name="checkBoxToggleTopLeftChordModelObjectType">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopLeftChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="8">
+          <spacer name="horizontalSpacerAttribute">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="2" column="9">
+          <widget class="QCheckBox" name="checkBoxToggleTopRightChordAttribute">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopRightChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QComboBox" name="comboBoxCreateTopLeftChord">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="editable">
+            <bool>false</bool>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateTopLeftChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="6">
+          <widget class="QCheckBox" name="checkBoxToggleTopRightChordModelObjectType">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopRightChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="11">
+          <widget class="QToolButton" name="toolButtonBottomRightChordAttributeSetup">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QCheckBox" name="checkBoxToggleCreateBottomRightChord">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateBottomRightChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="10">
+          <widget class="QComboBox" name="comboBoxTopRightChordAttribute">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>-1</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopRightChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="9">
+          <widget class="QCheckBox" name="checkBoxToggleBottomLeftChordAttribute">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomLeftChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QComboBox" name="comboBoxCreateBottomRightChord">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateBottomRightChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="7">
+          <widget class="QComboBox" name="comboBoxBottomRightChordModelObjectType">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomRightChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Beam</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MultiBeam</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QCheckBox" name="checkBoxToggleCreateTopRightChord">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>CreateTopRightChord</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="labelTopRightChord">
+           <property name="text">
+            <string>Perfil 2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="7">
+          <widget class="QComboBox" name="comboBoxTopLeftChordModelObjectType">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>TopLeftChordModelObjectType</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string/>
+           </property>
+           <item>
+            <property name="text">
+             <string>Beam</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MultiBeam</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="11">
+          <widget class="QToolButton" name="toolButtonTopRightChordAttributeSetup">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="labelBottomLeftChord">
+           <property name="text">
+            <string>Perfil 3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="9">
+          <widget class="QCheckBox" name="checkBoxToggleBottomRightChordAttribute">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="objectProperty" stdset="0">
+            <string>BottomRightChordAttribute</string>
+           </property>
+           <property name="widgetAction" stdset="0">
+            <string>toggleModifyProperty</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <spacer name="horizontalSpacerObject">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="2" column="1">
+          <spacer name="horizontalSpacerCreate">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="imageTruss">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>652</width>
+          <height>478</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../images/Truss.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxEndHeel">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>200</y>
+        <width>62</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>EndHeel</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleEndHeel">
+      <property name="geometry">
+       <rect>
+        <x>562</x>
+        <y>200</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>EndHeel</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxRidgeHeight">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>180</y>
+        <width>62</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1500.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>RidgeHeight</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleRidgeHeight">
+      <property name="geometry">
+       <rect>
+        <x>242</x>
+        <y>180</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>RidgeHeight</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxRidgeDistance">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>26</y>
+        <width>62</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::UpDownArrows</enum>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>RidgeDistance</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleRidgeDistance">
+      <property name="geometry">
+       <rect>
+        <x>182</x>
+        <y>26</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>RidgeDistance</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleStartHeel">
+      <property name="geometry">
+       <rect>
+        <x>22</x>
+        <y>220</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>StartHeel</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxStartHeel">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>220</y>
+        <width>64</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="decimals">
+       <number>2</number>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>300.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>StartHeel</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxCeilingHeight">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>360</y>
+        <width>62</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>CeilingHeight</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleCeilingHeight">
+      <property name="geometry">
+       <rect>
+        <x>242</x>
+        <y>360</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>CeilingHeight</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>344</x>
+        <y>26</y>
+        <width>136</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Midlight">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>63</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Dark">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>127</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Mid">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>170</red>
+            <green>170</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="BrightText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Shadow">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="AlternateBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>220</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="PlaceholderText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="128">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Midlight">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>63</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Dark">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>127</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Mid">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>170</red>
+            <green>170</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="BrightText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Shadow">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="AlternateBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>220</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="PlaceholderText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="128">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>127</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Button">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Light">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>127</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Midlight">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>63</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Dark">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>127</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Mid">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>170</red>
+            <green>170</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>127</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="BrightText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>127</red>
+            <green>127</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Shadow">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="AlternateBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipBase">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>220</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ToolTipText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="PlaceholderText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="128">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="text">
+       <string>(0,00 para lados iguais)</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxTopLeftChordExtraStartLength">
+      <property name="geometry">
+       <rect>
+        <x>48</x>
+        <y>110</y>
+        <width>62</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>TopLeftChordExtraStartLength</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleTopLeftChordExtraStartLength">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>110</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>TopLeftChordExtraStartLength</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxTopRightChordExtraStartLength">
+      <property name="geometry">
+       <rect>
+        <x>588</x>
+        <y>90</y>
+        <width>62</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimum">
+       <double>-100000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>TopRightChordExtraStartLength</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleTopRightChordExtraStartLength">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>90</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>TopRightChordExtraStartLength</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBoxToggleFieldsNumber">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>310</y>
+        <width>13</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Águas</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string>FieldsNumber</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string>toggleModifyProperty</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBoxFieldsNumber">
+      <property name="geometry">
+       <rect>
+        <x>59</x>
+        <y>307</y>
+        <width>85</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="suffix">
+       <string/>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>2</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="objectProperty" stdset="0">
+       <string notr="true">FieldsNumber</string>
+      </property>
+      <property name="widgetAction" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <zorder>imageTruss</zorder>
+     <zorder>spinBoxFieldsNumber</zorder>
+     <zorder>checkBoxToggleStartHeel</zorder>
+     <zorder>doubleSpinBoxStartHeel</zorder>
+     <zorder>doubleSpinBoxRidgeHeight</zorder>
+     <zorder>checkBoxToggleRidgeHeight</zorder>
+     <zorder>doubleSpinBoxRidgeDistance</zorder>
+     <zorder>checkBoxToggleRidgeDistance</zorder>
+     <zorder>doubleSpinBoxEndHeel</zorder>
+     <zorder>checkBoxToggleEndHeel</zorder>
+     <zorder>doubleSpinBoxCeilingHeight</zorder>
+     <zorder>checkBoxToggleCeilingHeight</zorder>
+     <zorder>label</zorder>
+     <zorder>groupBoxProfiles</zorder>
+     <zorder>doubleSpinBoxTopLeftChordExtraStartLength</zorder>
+     <zorder>checkBoxToggleTopLeftChordExtraStartLength</zorder>
+     <zorder>doubleSpinBoxTopRightChordExtraStartLength</zorder>
+     <zorder>checkBoxToggleTopRightChordExtraStartLength</zorder>
+     <zorder>checkBoxToggleFieldsNumber</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 16.933332 16.933333"
+   version="1.1"
+   id="svg118"
+   sodipodi:docname="AddBuildContourToRefSketch.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata124">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs122">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient902-4">
+      <stop
+         style="stop-color:#fce94f;stop-opacity:1"
+         offset="0"
+         id="stop898" />
+      <stop
+         style="stop-color:#c4a000;stop-opacity:1"
+         offset="1"
+         id="stop900" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient902-4"
+       id="linearGradient904"
+       x1="43.888252"
+       y1="2.7000065"
+       x2="68.302322"
+       y2="55.922665"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview120"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="10.24"
+     inkscape:cx="23.058174"
+     inkscape:cy="31.85663"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg118" />
+  <g
+     id="Edge1193"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1193_nwe0000"
+       d="m -10445,-7844.9999 h 7990"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title3">Edge1193</title>
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:0.79374996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+     d="M 0.43129026,9.8549298 V 14.500822"
+     id="Edge1194_nwe0000" />
+  <g
+     id="Edge1195"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1195_nwe0000"
+       d="m -9445,-1805 h -1000"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title11">Edge1195</title>
+  </g>
+  <g
+     id="Edge1196"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1196_nwe0000"
+       d="M -9445,1805 V -1805"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title15">Edge1196</title>
+  </g>
+  <g
+     id="Edge1197"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1197_nwe0000"
+       d="m -10445,1805 h 1000"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title19">Edge1197</title>
+  </g>
+  <g
+     id="Edge1198"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1198_nwe0000"
+       d="M -10445,7844.9999 V 1805"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title23">Edge1198</title>
+  </g>
+  <g
+     id="Edge1199"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1199_nwe0000"
+       d="m -2455,7844.9999 h -7990"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title27">Edge1199</title>
+  </g>
+  <g
+     id="Edge1200"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1200_nwe0000"
+       d="M -2455,4895 V 7844.9999"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title31">Edge1200</title>
+  </g>
+  <g
+     id="Edge1201"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1201_nwe0000"
+       d="M 2455,4895 H -2455"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title35">Edge1201</title>
+  </g>
+  <g
+     id="Edge1202"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1202_nwe0000"
+       d="M 2455,7844.9999 V 4895"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title39">Edge1202</title>
+  </g>
+  <g
+     id="Edge1203"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1203_nwe0000"
+       d="M 10445,7844.9999 H 2455"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title43">Edge1203</title>
+  </g>
+  <g
+     id="Edge1204"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1204_nwe0000"
+       d="M 10445,1805 V 7844.9999"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title47">Edge1204</title>
+  </g>
+  <g
+     id="Edge1205"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1205_nwe0000"
+       d="m 9445,1805 h 1000"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title51">Edge1205</title>
+  </g>
+  <g
+     id="Edge1206"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1206_nwe0000"
+       d="M 9445,-1805 V 1805"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title55">Edge1206</title>
+  </g>
+  <g
+     id="Edge1207"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1207_nwe0000"
+       d="M 10445,-1805 H 9445"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title59">Edge1207</title>
+  </g>
+  <g
+     id="Edge1208"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1208_nwe0000"
+       d="M 10445,-7844.9999 V -1805"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title63">Edge1208</title>
+  </g>
+  <g
+     id="Edge1209"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1209_nwe0000"
+       d="m 2455,-7844.9999 h 7990"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title67">Edge1209</title>
+  </g>
+  <g
+     id="Edge1210"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1210_nwe0000"
+       d="M 2455,-4895 V -7844.9999"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title71">Edge1210</title>
+  </g>
+  <g
+     id="Edge1211"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1211_nwe0000"
+       d="M 1155,-4895 H 2455"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title75">Edge1211</title>
+  </g>
+  <g
+     id="Edge1212"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1212_nwe0000"
+       d="M 1155,-2195 V -4895"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title79">Edge1212</title>
+  </g>
+  <g
+     id="Edge1213"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1213_nwe0000"
+       d="M -1155,-2195 H 1155"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title83">Edge1213</title>
+  </g>
+  <g
+     id="Edge1214"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1214_nwe0000"
+       d="m -1155,-4895 v 2700"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title87">Edge1214</title>
+  </g>
+  <g
+     id="Edge1215"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1215_nwe0000"
+       d="m -2455,-4895 h 1300"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title91">Edge1215</title>
+  </g>
+  <g
+     id="Edge1216"
+     transform="matrix(7.6918756e-4,0,0,-7.6918756e-4,8.4677617,8.4667)"
+     style="fill:none;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1">
+    <path
+       id="Edge1216_nwe0000"
+       d="M -2455,-7844.9999 V -4895"
+       style="fill:none;fill-rule:evenodd;stroke:#302b00;stroke-width:1031.93291495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title95">Edge1216</title>
+  </g>
+  <path
+     style="fill:url(#linearGradient904);fill-opacity:1;stroke:#302b00;stroke-width:0.29296875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 3.2144236,46.010557 v -7.226562 h 0.8560158 c 0.9847183,0 1.4000457,-0.161645 1.7562889,-0.683544 L 6.0464549,37.778548 V 31.996885 26.215222 L 5.8267283,25.89332 C 5.4704851,25.37142 5.0551577,25.209776 4.0704394,25.209776 H 3.2144236 V 17.983213 10.756651 H 13.269734 23.325045 l 0.0277,3.801563 c 0.02688,3.689855 0.03374,3.809661 0.233218,4.077148 0.113036,0.151572 0.354735,0.363476 0.537109,0.470898 0.323894,0.19078 0.507223,0.195313 7.899948,0.195313 h 7.56836 l 0.368578,-0.229155 c 0.708934,-0.440762 0.702204,-0.398785 0.7344,-4.580416 l 0.02876,-3.735351 h 10.054248 10.054248 v 7.217411 7.217412 l -0.969686,0.03356 c -1.045478,0.03619 -1.283003,0.134255 -1.709827,0.70594 -0.198067,0.265289 -0.201346,0.364085 -0.201346,6.065906 0,5.701822 0.0033,5.800617 0.201346,6.065906 0.426824,0.571685 0.664349,0.669752 1.709827,0.705941 l 0.969686,0.03356 v 7.217412 7.217412 H 50.777363 40.723115 l -0.02876,-3.735352 c -0.02721,-3.534138 -0.03928,-3.752811 -0.224072,-4.059479 -0.375024,-0.622368 -0.715855,-0.742854 -2.218078,-0.784109 l -1.339236,-0.03678 -0.02798,-3.399977 c -0.02682,-3.258594 -0.03636,-3.411185 -0.22933,-3.669506 -0.11074,-0.14824 -0.322642,-0.360133 -0.470893,-0.470874 -0.259567,-0.193892 -0.407564,-0.202385 -3.997872,-0.229427 -4.218026,-0.03177 -4.357535,-0.01302 -4.805202,0.645779 l -0.241483,0.355375 v 3.385935 3.385934 l -1.342774,0.03378 c -1.470944,0.037 -1.793085,0.13897 -2.211471,0.69999 -0.199482,0.267487 -0.206334,0.387294 -0.233218,4.077148 l -0.0277,3.801564 H 13.269734 3.2144236 Z"
+     id="path896"
+     inkscape:connector-curvature="0"
+     transform="scale(0.26458332)" />
+</svg>
