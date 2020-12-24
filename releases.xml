@@ -1,0 +1,20 @@
+<Module>
+	<Name>Plugin_Base</Name>
+	<Type>Plugin</Type>
+	<Url>https://github.com/AtcSoftware/Plugin_Base</Url>
+	<Last_Release>
+		<windows>0.1</windows>
+	</Last_Release>
+	<Releases>
+		<Release>
+			<system>windows</system>
+			<number>0.1</number>
+			<title>Initial</title>
+			<date>2020.12.23</date>
+			<time>18:33</time>
+			<branch>release_0.1_windows</branch>
+			<dev_commit>db847c1a35a9d0ff5568f68bef4c5b6a1422e136</dev_commit>
+			<comments>Initial release of Plugin_Base</comments>
+		</Release>
+	</Releases>
+</Module>
